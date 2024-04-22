@@ -49,5 +49,5 @@ const data = [
 const names = data.flatMap(innerArray => 
     innerArray.map(item => item.name)
 );
-c
+
 console.log(names); // This will output: ['John', 'Jane', 'Bob']
